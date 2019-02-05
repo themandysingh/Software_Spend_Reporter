@@ -1,4 +1,11 @@
 #!/usr/bin/env python
+
+# Author: Mandeep Singh
+# Contact: msingh98@uw.edu
+# Developed for: ServiceNow
+#
+# This is the main script that runs the Software_Spend_Reporter.
+
 import sys
 import os
 from Company import Company

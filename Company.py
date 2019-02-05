@@ -1,3 +1,7 @@
+# Author: Mandeep Singh
+# Contact: msingh98@uw.edu
+# Developed for: ServiceNow
+
 # The company class stores the required information for a particular
 # company, it's products and their cost, and the total cost of all
 # products
