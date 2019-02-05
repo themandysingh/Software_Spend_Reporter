@@ -26,7 +26,10 @@ class Company:
     #   cost: The cost of the product
     def add_product(self, name, cost):
         self.__total_cost = cost + self.__total_cost
-        self.__products[name] = cost
+        if name not in self.__products.keys():
+            self.__products[name] = cost
+        else:
+            self.__products[name] = self.__products[name] + cost
 
     # This function prints the information stored in the Class in a two-level
     # tree format. The products are printed in alphabetically ascending order.
